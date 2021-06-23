@@ -11,4 +11,4 @@
 
 A LetMeAsk é uma plataforma para criar salas de Q&A (perguntas e respostas).
 
-<img src="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/Capa-letmeask.png" width="80%">
+<img src="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/Capa-letmeask.png">
