@@ -62,6 +62,11 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
     }
   }
 
+  // //! Sign out criado para adicionar funcionalidade
+  // async function signOutGoogle() {
+  //   return auth.signOut();
+  // }
+
   return (
     <AuthContext.Provider value={{ user, signInWithGoogle }}>
       {props.children}
