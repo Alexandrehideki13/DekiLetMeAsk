@@ -4,6 +4,7 @@ import logoImg from '../assets/images/logo.svg';
 import deleteImage from '../assets/images/delete.svg';
 import checkImg from '../assets/images/check.svg';
 import answerImg from '../assets/images/answer.svg';
+import illustrationNoQuestion from '../assets/images/illustrationNoQuestion.svg';
 
 import { Button } from '../components/Button'
 import { Question } from '../components/Question';
@@ -71,6 +72,15 @@ export function AdminRoom() {
         </div>
 
         <div className="question-list">
+          {questions.length === 0 && (
+            //* Adicionando illustration quando não tiver nenhuma pergunta
+            <div className="no-question">
+              <img src={illustrationNoQuestion} alt="Imagens de 3 chats quando não tem pergunta" />
+              <h1>Nenhuma pergunta por aqui...</h1>
+              <span>Envie o código desta sala para seus amigos e</span>
+              <span>comece a responder perguntas!</span>
+            </div>
+          )}
           {questions.map(question => {
             return (
               <Question

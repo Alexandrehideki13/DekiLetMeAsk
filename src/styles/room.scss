@@ -106,6 +106,24 @@
     }
 
     .question-list {
+      .no-question {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 160px;
+        
+        h1 {
+          margin: 16px 0px 16px 0px;
+          font-size: 24px;
+        }
+
+        span {
+          font-size: 20px;
+          color: #737380;
+        }
+      }
+
       margin-top: 32px;
     }
   }
