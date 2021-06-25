@@ -29,8 +29,21 @@ jobs:
         with:
           name: build
           path: build
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+  deploy:
+    name: Deploy
+    needs: build_and_preview
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@master
+      - name: Download artifact
+        uses: actions/download-artifact@master
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEKILETMEASK }}'
-          projectId: dekiletmeask
+          name: build
+          path: build
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy -P production --only hosting
+        env: 
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
