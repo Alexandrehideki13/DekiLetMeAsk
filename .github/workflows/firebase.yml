@@ -37,6 +37,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository 
       - uses: actions/checkout@master
       - name: Download Build
         uses: actions/download-artifact@master 
