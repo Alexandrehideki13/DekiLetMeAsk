@@ -1,3 +1,27 @@
+.darkOn {
+  .question {
+    border: 1px solid #835afd;
+
+    &.highlighted {
+      background: #0144b7;
+      
+      footer .user-info span {
+        color: #000000;
+      }
+    }
+
+    &.answered {
+      background: #020024;
+      p {
+        color: #737380 !important;
+      }
+      span{
+        color: #737380 !important;
+      }
+    }
+  }
+}
+
 .question {
   background: #fefefe;
   border-radius: 8px;

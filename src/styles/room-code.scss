@@ -1,3 +1,40 @@
+.darkOn {
+  background: #020024;
+
+  .room-code {
+    background: #090979;
+    color: white;
+  }
+
+  #closeClass:hover {
+    background: #090979;
+    color: white;
+  }
+
+  .content {
+    h1 {
+      color: white !important;
+    }
+  }
+
+  .question {
+    background: #090979;
+    
+    p {
+      color: white;
+    }
+
+    footer {
+      .user-info {
+        span{
+            color: white;
+        }
+      }
+    }
+    
+  }
+}
+
 .room-code {
   height: 40px;
   border-radius: 8px;

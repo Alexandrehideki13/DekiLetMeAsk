@@ -13,6 +13,7 @@ type QuestionProps = {
   //? (div, outro componente, mais de um componente)
   isAnswered?: boolean;
   isHighlighted?: boolean;
+  theme: string;
 }
 
 export function Question({
@@ -21,6 +22,7 @@ export function Question({
   isAnswered = false,
   isHighlighted = false,
   children,
+  theme
 }: QuestionProps) {
   return (
     <div
@@ -30,7 +32,8 @@ export function Question({
       className={cx(
         'question',
         { answered: isAnswered },
-        { highlighted: isHighlighted && !isAnswered }
+        { highlighted: isHighlighted && !isAnswered },
+        { darkOn: theme === 'dark' }
       )}
     >
       <p>{content}</p>

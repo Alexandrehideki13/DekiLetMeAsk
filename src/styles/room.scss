@@ -1,4 +1,27 @@
+.darkOn {
+  form { 
+    span{
+      color: #fff!important;
+    }  
+
+    textarea {
+      background: #0144b7 !important;
+      color: #fff;
+      
+    }
+    
+    textarea:focus{
+      outline: 0;
+      border: 2px solid #00d4ff !important;
+    }
+  }
+}
+
+
 #page-room {
+  min-height: 100vh;
+  padding-bottom: 32px;
+
   header {
     padding: 24px;
     border-bottom: 1px solid #e2e2e2;
@@ -22,8 +45,6 @@
       button {
         height: 40px;
       }
-
-
     }
   }
 
@@ -124,7 +145,7 @@
         }
       }
 
-      margin-top: 32px;
+      margin: 32px;
     }
   }
 }
