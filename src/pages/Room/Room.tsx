@@ -75,7 +75,7 @@ export function Room() {
       </button>
       <header>
         <div className="content">
-          <img src={theme === 'light' ? logoImg : logoDark} alt="letmeask" />
+          <div id="img"><img src={theme === 'light' ? logoImg : logoDark} alt="letmeask" /></div>
           <RoomCode code={roomId} />
         </div>
       </header>

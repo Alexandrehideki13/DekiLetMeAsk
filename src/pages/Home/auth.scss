@@ -62,6 +62,19 @@
     }
   }
 
+  @media (max-width: 768px) {
+    aside {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1025px) {
+    aside {
+      padding: 120px 40px;
+      transition: ease all .5s;
+    }
+  }
+
   main {
     flex: 9;
 

@@ -17,7 +17,6 @@
   }
 }
 
-
 #page-room {
   min-height: 100vh;
   padding-bottom: 32px;
@@ -33,8 +32,16 @@
       justify-content: space-between;
       align-items: center;
 
+      .room-title {
+        margin: 24px auto;
+      }
+
       > img {
         max-height: 45px;
+      }
+      
+      #img {
+        height: 45px;
       }
 
       > div {
@@ -53,7 +60,7 @@
     margin: 0 auto;
 
     .room-title {
-      margin: 32px 0 24px;
+      margin: 32px 0 0;
       display: flex;
       align-items: center;
 
@@ -84,7 +91,7 @@
         resize: vertical;
         min-height: 130px;
       }
-
+      
       .form-footer {
         display: flex;
         justify-content: space-between;
@@ -146,6 +153,91 @@
       }
 
       margin: 32px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      > img {
+        max-height: 75px !important;
+        margin-bottom: 16px;
+      }
+
+      #img {
+        height: 75px !important;
+      }
+      
+      > div {
+        margin-bottom: 16px;
+      }
+      
+      .room-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        > span {
+          margin: 16px 0 0px 0;
+        }
+      }
+
+      .form-footer {
+        display: flex;
+      }
+
+      textarea {
+        min-width: 600px;
+        margin-top: 16px;
+      }
+
+      .question {
+        min-width: 600px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      > div {
+        flex-direction: column;
+      }
+
+      .room-title {
+        h1 {
+          text-align: center;
+        }
+      }
+
+      textarea {
+        min-width: 300px;
+      }
+
+      .form-footer {
+        display: flex;
+        flex-direction: column;
+
+        button {
+          margin-top: 5px;
+          font-size: 10px;
+          height: 30px;
+        }
+      }
+
+      .question {
+        min-width: 100%;
+      }
+
     }
   }
 }
