@@ -57,7 +57,46 @@ $ yarn start
 ```
 
 <h1 id="funcionalidades">Funcionalidades</h1>
-    <h3>Em breve</h3>    
+    <h3>Tela desktop - tema light</h3>    
+    <img src="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/Screenshots-light-11.png">
+    <h4>Gostaria de ver cada imagem mais nítidamente?</h4>
+    <div>
+      <details>
+        <summary><strong>Clique aqui</strong></summary>
+        <table border="3">
+          <tr>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/light/README.md">All</a></td>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/light/home-light.jpg">Home</a></td>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/light/newRoom-light.jpg">New Room</a></td>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/light/userRoom-light.jpg">User Room</a></td>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/light/admin-light.jpg">Admin Room</a></td>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/light/userQuestions-light.jpg">Questions User Room</a></td>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/light/adminQuestions-light.jpg">Questions Admin Room</a></td>
+          </tr>
+        </table>
+      </details>
+    </div>
+    <h3>Tela desktop - tema dark</h3>
+    <img src="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/Screenshots-dark.png">
+    <h4>Gostaria de ver cada imagem mais nítidamente?</h4>
+    <div>
+      <details>
+        <summary><strong>Clique aqui</strong></summary>
+        <table border="3">
+          <tr>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/dark/README.md">All</a></td>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/dark/home-dark.jpg">Home</a></td>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/dark/newRoom-dark.jpg">New Room</a></td>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/dark/userRoom-dark.jpg">User Room</a></td>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/dark/admin-dark.jpg">Admin Room</a></td>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/dark/userQuestions-dark.jpg">Questions User Room</a></td>
+            <td><a href="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/dark/adminQuestions-dark.jpg">Questions Admin Room</a></td>
+          </tr>
+        </table>
+      </details>
+    </div>
+    <h3>Autenticação com gmail</h3>
+    <img src="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/autenticacao.jpg" width="60%">
     
 <h1 id="licença-e-autor">Licença e autor</h1>
     
