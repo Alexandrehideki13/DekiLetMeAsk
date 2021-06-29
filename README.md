@@ -76,7 +76,6 @@ $ yarn start
         </table>
       </details>
     </div>
-    
     <h3>Tela desktop - tema dark</h3>
     <img src="https://github.com/Alexandrehideki13/DekiLetMeAsk/blob/master/src/assets/images/readmeImages/Screenshots-dark.png">
     <h4>Gostaria de ver cada imagem mais nítidamente?</h4>
